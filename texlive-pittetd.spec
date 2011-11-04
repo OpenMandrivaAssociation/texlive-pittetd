@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/pittetd
+# catalog-date 2008-09-11 18:37:35 +0200
+# catalog-license lppl
+# catalog-version 1.618
 Name:		texlive-pittetd
 Version:	1.618
 Release:	1
@@ -51,6 +57,7 @@ their thesis or dissertation.
 #- source
 %doc %{_texmfdistdir}/source/latex/pittetd/pittetd.dtx
 %doc %{_texmfdistdir}/source/latex/pittetd/pittetd.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -61,3 +68,5 @@ their thesis or dissertation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
