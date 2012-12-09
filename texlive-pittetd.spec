@@ -57,3 +57,17 @@ their thesis or dissertation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.618-2
++ Revision: 754908
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.618-1
++ Revision: 719264
+- texlive-pittetd
+- texlive-pittetd
+- texlive-pittetd
+- texlive-pittetd
+
