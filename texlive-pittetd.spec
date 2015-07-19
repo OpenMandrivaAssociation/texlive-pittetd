@@ -6,7 +6,7 @@
 # catalog-version 1.618
 Name:		texlive-pittetd
 Version:	1.618
-Release:	9
+Release:	10
 Summary:	Electronic Theses and Dissertations at Pitt
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pittetd
