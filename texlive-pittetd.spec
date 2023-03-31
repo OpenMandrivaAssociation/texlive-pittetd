@@ -1,6 +1,6 @@
 Name:		texlive-pittetd
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Electronic Theses and Dissertations at Pitt
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pittetd
