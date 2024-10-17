@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Electronic Theses and Dissertations at Pitt
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pittetd
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/pittetd
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pittetd.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pittetd.doc.r%{version}.tar.xz
